@@ -1,0 +1,85 @@
+body {
+  height: 100%;
+
+}
+
+html {
+  height: 100%;
+}
+
+.sections {
+  padding: 50px 0px 50px 0px;
+}
+
+.title {
+  padding-bottom: 25px;
+}
+
+/* -- Nav Bar -- */
+@media(min-width:767px) {
+  .navbar {
+    padding: 5px 0;
+    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    transition: background .5s ease-in-out, padding .5s ease-in-out;
+  }
+}
+
+.navbar-brand {
+  font-family: 'AlexBrushRegular';
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* -- Colored Sections -- */
+.background {
+  background: #eee;
+}
+
+/* -- Titles -- */
+.title {
+  padding-top: 25px;
+}
+
+/* -- Fonts -- */
+.font-basic {
+  font-family: 'Oswald', sans-serif;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* -- Header img -- */
+.full-width-image {
+  background: url(https://preview.ibb.co/bQqFov/pexels_photo_97077.jpg) no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  height: 800px;
+}
+
+/* -- About me -- */
+
+.name-color {
+  color: #0051ff;
+  font-weight: bold;
+  font-size: 30pt;
+}
+
+.img-circle {
+  border-radius: 80%;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+/* -- Projects -- */
+.card-body img {
+  padding-left: 75px;
+}
+
+/* -- Contact -- */
+.contact {
+  padding-top: 50px;
+  padding-bottom: 150px;
+}
+
